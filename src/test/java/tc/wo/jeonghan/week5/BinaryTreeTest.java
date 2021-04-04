@@ -41,10 +41,12 @@ public class BinaryTreeTest {
 	@Test
 	public void dfs() {
 		BinaryTree.dfs(root);
+		// expected 3 1 4 0 5 2 6 9 8 10 7
 	}
 
 	@Test
 	public void bfs() {
 		BinaryTree.bfs(root);
+		// expected 0,1,2,3 .. 10
 	}
 }
